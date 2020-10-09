@@ -1,0 +1,57 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css ">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <svg class="circle" height="500" width="1000">
+        <circle r="200" cx="650" cy="250" fill="transparent" stroke="red" stroke-width='30' stroke-dasharray="1245" transform="rotate(-85 650 250)"></circle>
+    </svg>
+
+    <div class="control">
+    <input id="duration" class="time" value="30" />
+    <button id="start" class="btn"><i class="fas fa-play"></i></button>
+    <button id="pause" class="btn"><i class="fas fa-pause"></i></button>
+    </div>
+    <script src="timer.js"></script>
+    <script src="java.js"></script>
+</body>
+</html>
+-->
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="timer">
+      <div class="controls">
+        <input id="duration" value="30" />
+        <div>
+          <button id="start"><i class="fas fa-play"></i></button>
+          <button id="pause"><i class="fas fa-pause"></i></button>
+          <div>
+          <button id="restart">Restart</button>
+          </div>
+        </div>
+      </div>
+      <svg height="500"
+  width="1000">
+        <circle
+          r="200" cx="500" cy="250" fill="transparent" stroke="red" stroke-width='30' stroke-dasharray="1245" transform="rotate(-90 500 250)"/>
+
+      </svg>
+    </div>
+
+    <script src="timer.js"></script>
+    <script src="java.js"></script>
+  </body>
+</html>
